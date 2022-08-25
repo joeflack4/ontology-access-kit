@@ -223,6 +223,18 @@ OAK uses [`pystow`](https://github.com/cthoyt/pystow) for caching. By default,
 this goes inside `~/.data/`, but can be configured following
 [these instructions](https://github.com/cthoyt/pystow#%EF%B8%8F%EF%B8%8F-configuration).
 
+## Installation
+### General purpose installation
+1. Python 3.9+
+2. Run: `pip install oaklib`
+
+### SqlImplementation requirements
+If using `SqlImplementation`, some additional steps beyond _general purpose installation_ are required.
+1. Install [`sqlite`](https://www.sqlite.org/download.html)
+2. Install [`relation-graph`](https://github.com/balhoff/relation-graph#installation)
+4. Install [`rdftab`](https://github.com/ontodev/rdftab.rs#installation)
+3. Install `riot`. Can install via [HomeBrew](https://brew.sh/) on MacOS via: `brew install jena` 
+
 ## Developer notes
 
 ### Local project setup
